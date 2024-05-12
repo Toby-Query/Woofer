@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomePage"
+    android:background="@color/myblack"
+    >
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_layout"
+        android:background="@color/myblack"
+        app:tabTextColor="@color/white"
+        app:tabSelectedTextColor="@color/teal_200"
+        app:tabGravity="fill"
+        android:layout_alignParentTop="true"
+        >
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Friends"
+            android:layout="@layout/custom_tab_item"
+           />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Friends"
+            />
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_page"
+        android:layout_below="@+id/tab_layout"/>
+
+</RelativeLayout>

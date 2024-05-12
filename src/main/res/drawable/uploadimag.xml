@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval"
+            >
+
+            <!-- View background color -->
+            <solid
+                android:color="@color/teal_200" >
+            </solid>
+
+            <!-- View border color and width -->
+
+
+            <!-- The radius makes the corners rounded -->
+            <corners
+                android:radius="100dp"   >
+            </corners>
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/baseline_camera_alt_24"
+        android:bottom="5dp"
+        android:top="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        />
+
+</layer-list>

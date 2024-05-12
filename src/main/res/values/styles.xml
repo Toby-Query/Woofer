@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="MyTheme" parent="Theme.WooferApp">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+    <style name="MyActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">#FF9D21</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+    <style name="MyActionBarTitleText"
+        parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/teal_200</item>
+    </style>
+    <style name="TabItemText" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTitleStyle">@style/AppTitleStyle</item>
+        <!-- Other theme attributes -->
+    </style>
+
+    <style name="AppTitleStyle">
+        <item name="android:textColor">@color/teal_200</item>
+        <!-- Other title text style attributes -->
+    </style>
+
+
+
+
+
+
+
+
+</resources>
